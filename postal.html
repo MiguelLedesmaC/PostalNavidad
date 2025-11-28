@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡¡Feliz Navidad!!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <audio autoplay loop id="villancico-fondo">
+        <source src="/audio/audioFondo.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <audio autoplay id="voz-Papa-Noel">
+         <source src="/audio/santaAudio.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="abrirRegalo" src="/audio/abrirRegalo.mp3"></audio>
+
+    <div class="santa-sleigh-container">
+        <img id="santa-img" src="santa_sleigh.png" alt="Papá Noel y Trineo">
+    </div>
+
+
+    <div class="speech-bubble">
+        <h1 id="titulo-principal">🎄¡Ho! ¡Ho! ¡Ho! ¡Feliz Navidad y Próspero Año Nuevo! Abre tu regalo 🎁</h1>
+    </div>
+
+
+    <div class="regalo">
+    <div class="tapa">
+      <span></span>
+      <div class="bow-loop-left"></div>
+        <div class="bow-loop-right"></div>
+    </div>
+    <div class="promo">
+    </div>
+    <div class="caja">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+    <!-- Modal carta navideña -->
+    <div class="modal">
+        <div id="card">
+            <h1>¡Feliz Navidad!</h1>
+            <p>Que la magia de la Navidad ilumine tu hogar con amor, paz y alegría. Querías disfrutar de un mundo mágico
+                dentro donde se reunen esos personajes entrañables de disney y mis elfos y yo hemos hecho nuestra mágia
+                para que ese mundo que ya tienes construido crezca aún más y esos pequeños y adorables personajes os
+                sigan llenando de ilusión a ti y NAHIA, que sí, que sabemos que también te gusta mirar a mamá "recuerda
+                que Papa Noel, lo sabe todo" un saludo familia!!! Feliz navidad ¡Ho! ¡Ho! ¡Ho!</p>
+            <p class="signature">Firmado,<br>Papa Noel</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
